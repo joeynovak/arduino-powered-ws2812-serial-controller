@@ -3,7 +3,6 @@
 #define NUM_LEDS 100
 
 #define DATA_PIN D7
-#define CLOCK_PIN 13
 CRGB leds[NUM_LEDS];
 
 #define LINE_BUF_SIZE 128   //Maximum input string length
