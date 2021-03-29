@@ -10,7 +10,7 @@ B and C
 
 B sets the brightness for the whole string, C sets the color.
 
-The serial data parser is very very strict, so commands must be entered exactly as below (Yes, the leading 0x is a waste of space, I like verbosity)
+The serial data parser is very very strict, so commands must be entered exactly as below, except the last 8 digits can be changed to whatever you want.  Yes, the leading 0x is a waste of space, what can I say, I like verbosity and self-documenting code / apis.
 
 All commands are an ASCII representation of a 4byte unsigned int, big-endian.
 
