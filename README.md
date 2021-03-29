@@ -1,4 +1,4 @@
-# esp8266-powered-ws2812-uart-controller
+# arduino-powered-ws2812-serial-controller
 This is a simple program that will allow you to control a string of ws2812 leds via serial / uart using an esp8266.  This could be used to control RGB leds from a PC, or in my case, via the UART port on a Jetson Nano
 
 While I wrote it to use an ESP8266 because of it's small size, it should work on any Arduino to control ws2812 leds.
