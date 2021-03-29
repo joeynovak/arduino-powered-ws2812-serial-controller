@@ -3,12 +3,14 @@ This is a simple program that will allow you to control a string of ws2812 leds 
 
 While I wrote it to use an ESP8266 because of it's small size, it should work on any Arduino to control ws2812 leds.
 
-#example
+# example
 There are two commands, 
 
 B and C
 
-B sets the brightness.
+B sets the brightness for the whole string, C sets the color.
+
+The serial data parser is very very strict, so commands must be entered exactly as below (Yes, the leading 0x is a waste of space, I like verbosity)
 
 All commands are an ASCII representation of a 4byte unsigned int, big-endian.
 
